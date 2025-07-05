@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#controls {
+  margin: 20px;
+}
+
+#array {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 400px;
+  margin: 20px;
+}
+
+.bar {
+  width: 10px;
+  margin: 0 1px;
+  background-color: #61dafb;
+}
+
+select,
+button,
+input[type="range"] {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#metrics {
+  margin-top: 10px;
+}
+
+#algoInfo {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #cccccc;
+}
